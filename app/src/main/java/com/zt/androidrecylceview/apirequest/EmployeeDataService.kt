@@ -5,6 +5,6 @@ import retrofit2.Call
 import retrofit2.http.GET
 
 interface EmployeeDataService {
-    @get:GET("json/glide.json")
+    @get:GET("json/glide.json") ADD YOUR ENDPOINT HERE
     val employees: Call<List<Employee>>?
 }
